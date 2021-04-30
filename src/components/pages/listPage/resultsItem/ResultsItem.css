@@ -1,0 +1,43 @@
+.results-item {
+    flex: 0 0 24.7%;
+    -ms-flex: 0 0 24.7%;
+    border: 1px solid #f1f1f1;
+    overflow: hidden;
+}
+.result-item-img {
+    height: 240px;
+    display: flex;
+    align-items: center; 
+}
+.results-item:hover .result-item-img img {
+    transform: scale(1.03);
+    transition: all 0.3s ease-in-out;
+}
+.results-item img {
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.result-item-content {
+    padding: 0 20px 10px 20px;
+}
+.result-item-content h5 {
+    margin-bottom: 5px;
+}
+.result-item-price {
+    color: #666;
+    margin-top: 10px;
+    font-size: 12px; 
+}
+.add-remove input {
+    margin-right: 5px;
+    margin-bottom: 10px; 
+}
+.add-remove svg {
+    color: #ccc;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer; 
+}
+.add-remove svg:hover {
+    color: #666;
+    transition: all 0.3s ease-in-out;
+}

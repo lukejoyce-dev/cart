@@ -1,0 +1,55 @@
+.cart-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #0000008c;
+    display: flex;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.6 ease-in-out
+}
+.cart-overlay.active {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.6 ease-in-out
+}
+.cart-wrapper {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    padding: 30px;
+}
+.cart-items {
+    margin-bottom: 40px;  
+}
+.close-icon {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    cursor: pointer; 
+}
+.close-icon svg {
+    color: #ccc;
+}
+.total-price {
+    margin-bottom: 40px;
+}
+.cart-wrapper input {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.cart-wrapper button {
+    padding: 7px 14px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;  
+}
+.cart-buttons {
+    position: absolute;
+    bottom: 30px;
+}
+
